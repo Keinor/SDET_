@@ -4,11 +4,6 @@ $msg = $_POST["message"];
 $rem=$_POST["accept"];
 $mf= $_POST["radio"];
 
-
-//echo "<pre>";
-//print_r($_SERVER);
-//echo "</pre>";
-
 $a=$_SERVER['REQUEST_URI'];
 if($rem==1)
     $check='Запомнить меня';
