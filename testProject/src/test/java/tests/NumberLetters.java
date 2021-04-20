@@ -27,9 +27,9 @@ public class NumberLetters {
         ArrayList tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
         driver.switchTo().window((String) tabs2.get(1));//Переключение на второй таб в браузере
 
-        yandexPage.inputTypeLogin("AnstyTest");
+        yandexPage.inputTypeLogin(""); //логин
         yandexPage.buttonLoginClick();
-        yandexPage.buttonPasswordClick("Ssf!!77117711");
+        yandexPage.buttonPasswordClick("");//пароль
         yandexPage.buttonLoginClick();
         Thread.sleep(5000);
         yandexPage.countLetters();
