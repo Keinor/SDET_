@@ -1,5 +1,6 @@
 package helpers;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,4 +12,9 @@ public class Waiters {
         WebDriverWait wait = new WebDriverWait(driver, waitTime);
         wait.until(ExpectedConditions.elementToBeClickable(webElement));
     }
+    static public void waitUntilLoad(WebDriver driver, Integer waitTime, String number){
+        WebDriverWait wait = new WebDriverWait(driver, waitTime);
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("span[title='Simbirsoft theme']"), Integer.valueOf(number)));
+    }
+
 }

@@ -1,19 +1,14 @@
 package pages;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
-
 public class YandexPage {
-
     public YandexPage(WebDriver driver){
         this.driver = driver;
     }
-
     private WebDriver driver;
-
     @FindBy(xpath = "(//div[@class='desk-notif-card__login-new-item-title'])[2]")
     private WebElement buttonMail;
     @FindBy(css = "input[id='passp-field-login']")
@@ -24,7 +19,6 @@ public class YandexPage {
     private WebElement buttonLogin;
     @FindBy(xpath = "//button[@data-t='button:pseudo']")
     private WebElement buttonNotNow;
-
     @FindBy(css = "span[title='Simbirsoft theme']")
     private List<WebElement> themes;
     @FindBy(css = "span.mail-ComposeButton-Text")
@@ -40,8 +34,10 @@ public class YandexPage {
     private WebElement textareaMail;
     @FindBy(xpath = "//button[@aria-disabled='false']")
     private WebElement buttonSend;
-
-
+    @FindBy(xpath = "//a[@href=\"#inbox\"]")
+    private WebElement linkClose;
+    @FindBy(xpath = "//span[@data-click-action='mailbox.check']")
+    private WebElement checkLetters;
 
     public void buttonMailClick(){
         buttonMail.click();
@@ -55,9 +51,7 @@ public class YandexPage {
     public void buttonPasswordClick(String password){
         inputPassword.sendKeys(password);
     }
-
-    public String countLetters(){
-      System.out.println( themes.size());
+    public String getLettersCount(){
       count = String.valueOf(themes.size());
       return count;
     }
@@ -69,15 +63,14 @@ public class YandexPage {
     public void inputThemetext(String themetxt){
         inputTheme.sendKeys(themetxt);
         inputTheme.click();
-
     }
     public void inputMail(String inputtxt) {
         textareaMail.sendKeys("Найдено "+inputtxt+" писем"+'/'+"ьма");
     }
     public void buttonSendClick(){
         buttonSend.click();
+        linkClose.click();
+        checkLetters.click();
+
     }
-
-
-
 }
