@@ -12,9 +12,9 @@ public class Waiters {
         WebDriverWait wait = new WebDriverWait(driver, waitTime);
         wait.until(ExpectedConditions.elementToBeClickable(webElement));
     }
-    static public void waitUntilLoad(WebDriver driver, Integer waitTime, String number){
+    static public void waitUntilLoad(WebDriver driver, Integer waitTime, Integer number, String locator){
         WebDriverWait wait = new WebDriverWait(driver, waitTime);
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("span[title='Simbirsoft theme']"), Integer.valueOf(number)));
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector(locator), number));
     }
 
 }
