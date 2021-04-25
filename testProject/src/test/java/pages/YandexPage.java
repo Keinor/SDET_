@@ -2,9 +2,10 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.util.List;
+
 public class YandexPage {
+
     public YandexPage(WebDriver driver){
         this.driver = driver;
     }
@@ -21,6 +22,7 @@ public class YandexPage {
     private WebElement buttonNotNow;
     @FindBy(css = "span[title='Simbirsoft theme']")
     private List<WebElement> themes;
+    public String locator = "span[title='Simbirsoft theme']";
     @FindBy(css = "span.mail-ComposeButton-Text")
     private WebElement spanMail;
     @FindBy(xpath = "(//div[@data-class-bubble])[1]")
@@ -52,8 +54,8 @@ public class YandexPage {
         inputPassword.sendKeys(password);
     }
     public String getLettersCount(){
-      count = String.valueOf(themes.size());
-      return count;
+        count = String.valueOf(themes.size());
+        return count;
     }
     public void spanMailClick(){
         spanMail.click();
