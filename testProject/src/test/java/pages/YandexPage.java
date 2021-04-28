@@ -2,14 +2,17 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import java.util.ArrayList;
 import java.util.List;
 
 public class YandexPage {
 
     public YandexPage(WebDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
-    private WebDriver driver;
+    private final WebDriver driver;
     @FindBy(xpath = "(//div[@class='desk-notif-card__login-new-item-title'])[2]")
     private WebElement buttonMail;
     @FindBy(css = "input[id='passp-field-login']")
@@ -20,9 +23,9 @@ public class YandexPage {
     private WebElement buttonLogin;
     @FindBy(xpath = "//button[@data-t='button:pseudo']")
     private WebElement buttonNotNow;
-    @FindBy(css = "span[title='Simbirsoft theme']")
+
+    @FindBy(xpath = "//span[@class=\"mail-MessageSnippet-Item mail-MessageSnippet-Item_subject\"]")
     private List<WebElement> themes;
-    public String locator = "span[title='Simbirsoft theme']";
     @FindBy(css = "span.mail-ComposeButton-Text")
     private WebElement spanMail;
     @FindBy(xpath = "(//div[@data-class-bubble])[1]")
@@ -31,7 +34,7 @@ public class YandexPage {
     private WebElement fieldMailWhom;
     @FindBy(css ="input.composeTextField ")
     private WebElement inputTheme;
-    String count;
+    Integer count;
     @FindBy(xpath ="//div[@role=\"textbox\"]/div")
     private WebElement textareaMail;
     @FindBy(xpath = "//button[@aria-disabled='false']")
@@ -42,37 +45,53 @@ public class YandexPage {
     private WebElement checkLetters;
 
     public void buttonMailClick(){
+
         buttonMail.click();
+        ArrayList tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
+        driver.switchTo().window((String) tabs2.get(1));//Переключение на второй таб в браузере
     }
     public void inputTypeLogin(String login){
+
         inputLogin.sendKeys(login);
     }
     public void buttonLoginClick(){
+
         buttonLogin.click();
     }
     public void buttonPasswordClick(String password){
+
         inputPassword.sendKeys(password);
     }
-    public String getLettersCount(){
-        count = String.valueOf(themes.size());
+    public Integer getLettersCount(String theme){
+        count = 0;
+        for (WebElement i: themes) {
+            if (i.getText().equals(theme)){
+                count++;
+            }
+        }
         return count;
     }
     public void spanMailClick(){
+
         spanMail.click();
         fieldMail.click();
         fieldMailWhom.click();
     }
     public void inputThemetext(String themetxt){
+
         inputTheme.sendKeys(themetxt);
         inputTheme.click();
     }
-    public void inputMail(String inputtxt) {
+    public void inputMail(Integer inputtxt) {
+
         textareaMail.sendKeys("Найдено "+inputtxt+" писем"+'/'+"ьма");
     }
     public void buttonSendClick(){
+
         buttonSend.click();
         linkClose.click();
         checkLetters.click();
 
     }
+
 }
