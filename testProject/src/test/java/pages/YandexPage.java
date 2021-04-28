@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
+import static helpers.Waiters.waitUntilLoad;
+
 public class YandexPage {
 
     public YandexPage(WebDriver driver){
@@ -23,8 +25,7 @@ public class YandexPage {
     private WebElement buttonLogin;
     @FindBy(xpath = "//button[@data-t='button:pseudo']")
     private WebElement buttonNotNow;
-
-    @FindBy(xpath = "//span[@class=\"mail-MessageSnippet-Item mail-MessageSnippet-Item_subject\"]")
+    @FindBy(css = "span.mail-MessageSnippet-Item_subject")
     private List<WebElement> themes;
     @FindBy(css = "span.mail-ComposeButton-Text")
     private WebElement spanMail;
@@ -32,6 +33,7 @@ public class YandexPage {
     private WebElement fieldMail;
     @FindBy(xpath = "(//div[@class=\"ComposeContactsList-Item ContactsSuggestItemDesktop\"])[1]")
     private WebElement fieldMailWhom;
+
     @FindBy(css ="input.composeTextField ")
     private WebElement inputTheme;
     Integer count;
@@ -86,12 +88,12 @@ public class YandexPage {
 
         textareaMail.sendKeys("Найдено "+inputtxt+" писем"+'/'+"ьма");
     }
-    public void buttonSendClick(){
+    public void buttonSendClick(Integer numberThemes,String theme){
 
         buttonSend.click();
         linkClose.click();
         checkLetters.click();
-
+        waitUntilLoad(driver, 1000,numberThemes+1, theme);
     }
 
 }
