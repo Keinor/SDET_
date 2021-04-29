@@ -18,7 +18,6 @@ public class NumberLetters {
     @BeforeMethod
     public void beforeMethod() {
         driver = new ChromeDriver();
-
         yandexPage = new YandexPage(driver);
 
         driver.get("http://yandex.ru");
