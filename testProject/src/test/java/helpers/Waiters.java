@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Waiters {
 
-    static public void waitUntilLoad(WebDriver driver, Integer waitTime, Integer number, String theme){
+    static public void waitUntilLoad(WebDriver driver, Integer waitTime, Integer number, String topicSearch){
         WebDriverWait wait = new WebDriverWait(driver, waitTime);
-        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector("span[title="+theme+"]"), number));
+        wait.until(ExpectedConditions.numberOfElementsToBe(By.cssSelector(topicSearch), number));
 
     }
 }

@@ -30,8 +30,8 @@ public class NumberLetters {
         yandexPage.spanMailClick();
         yandexPage.inputThemetext("Simbirsoft theme \n");
         yandexPage.inputMail(yandexPage.getLettersCount("Simbirsoft theme"));
-        yandexPage.buttonSendClick(numberThemes, "'Simbirsoft theme'");
-
+        yandexPage.buttonSendClick();
+        yandexPage.waitNumberOfThemeToBe("'Simbirsoft theme'", numberThemes);
 
     }
     @AfterMethod
