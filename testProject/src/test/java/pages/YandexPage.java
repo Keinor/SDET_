@@ -4,10 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static helpers.Waiters.waitUntilLoad;
 
 public class YandexPage {
@@ -116,5 +114,4 @@ public class YandexPage {
         String topicSearch = "span[title=" + theme + "]";
         waitUntilLoad(driver, 1000, number, topicSearch);
     }
-
 }
