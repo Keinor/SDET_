@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d2d632-8b65-421b-9ec2-00539899ba9c" name="Default Changelist" comment="update code convention, gitignore">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/YandexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YandexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Waiters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/NumberLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/NumberLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +26,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -34,10 +41,31 @@
       <recent name="C:\SDET\SDET_\testProject\src\test\java\tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.testProject">
+    <configuration name="C:/SDET/SDET_/testProject" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="testProject" type="TestNG">
       <module name="testProject" />
       <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-16" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.NumberLetters" />
@@ -55,6 +83,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.C:/SDET/SDET_/testProject" />
+      <item itemvalue="TestNG.testProject" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
