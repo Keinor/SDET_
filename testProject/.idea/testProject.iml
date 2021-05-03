@@ -9,6 +9,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-server:4.0.0-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:grid:4.0.0-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edgehtml-driver:4.0.0-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:jetty-repacked:9.4.12.v20180830.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.zeromq:jeromq:0.5.1" level="project" />
+    <orderEntry type="library" name="Maven: eu.neilalexander:jnacl:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.24" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.141.59" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59" level="project" />
@@ -30,7 +40,7 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.78" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.78" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.webjars:jquery:3.5.1" level="project" />
   </component>
 </module>
