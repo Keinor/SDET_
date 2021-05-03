@@ -4,8 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import java.util.ArrayList;
 import java.util.List;
+
 import static helpers.Waiters.waitUntilLoad;
 
 public class YandexPage {
@@ -63,7 +65,7 @@ public class YandexPage {
 
     public void buttonMailClick() {
         buttonMail.click();
-        ArrayList tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
+        List<String> tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
         driver.switchTo().window((String) tabs2.get(1));//Переключение на второй таб в браузере
     }
 
