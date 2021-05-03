@@ -15,22 +15,6 @@
     </properties>
 
     <dependencies>
-        
-
-        <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
-            <version>3.1.0</version>
-            <executions>
-                <execution>
-                    <id>default-jar</id>
-                    <phase>none</phase>
-                </execution>
-            </executions>
-        </plugin>
-        <plugins>
-
          <dependency>
              <groupId>org.seleniumhq.selenium</groupId>
              <artifactId>selenium-server</artifactId>
@@ -49,5 +33,15 @@
             <version>7.4.0</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
     </dependencies>
+
+
+
 </project>
