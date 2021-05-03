@@ -63,8 +63,7 @@ public class YandexPage {
 
     public void buttonMailClick() {
         buttonMail.click();
-        List<String> tabs2;
-        tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
+        List<String> tabs2 = new ArrayList(driver.getWindowHandles());//Получение списка табов
         driver.switchTo().window((String) tabs2.get(1));//Переключение на второй таб в браузере
     }
 
