@@ -14,7 +14,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <aspectj.version>1.8.10</aspectj.version>
         <name>allure.report.directory</name>
-        <value>C:\Users\New\.jenkins\workspace\TestMail\allure-report</value>
+        <value>C:\SDET\SDET_\testProject\target\allure-results</value>
     </properties>
     <build>
         <pluginManagement>

@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d2d632-8b65-421b-9ec2-00539899ba9c" name="Default Changelist" comment="update code convention, gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_test_filter_2_13_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-05-04T02-20-01_659-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-05-04T02-20-01_659-jvmRun1.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.NumberLetters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.NumberLetters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
