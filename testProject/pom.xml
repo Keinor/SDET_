@@ -12,6 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <name>allure.results.directory</name>
+        <value>C:\Users\New\.jenkins\workspace\TestMail\allure-report</value>
     </properties>
     <build>
         <pluginManagement>
