@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 import static helpers.Waiters.waitUntilLoad;
+import static helpers.Waiters.waitUntilClickable;
 
 public class YandexPage {
 
@@ -90,6 +91,7 @@ public class YandexPage {
     }
 
     public void spanMailClick() {
+        waitUntilClickable(driver, 1000, spanMail);
         spanMail.click();
         fieldMail.click();
         fieldMailWhom.click();
