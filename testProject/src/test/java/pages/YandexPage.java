@@ -91,7 +91,7 @@ public class YandexPage {
     }
 
     public void spanMailClick() {
-        waitUntilClickable(driver, 2000, spanMail);
+        waitUntilClickable(driver, 3000, spanMail);
         spanMail.click();
         fieldMail.click();
         fieldMailWhom.click();
