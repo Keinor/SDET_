@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d2d632-8b65-421b-9ec2-00539899ba9c" name="Default Changelist" comment="update code convention, gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_0_alpha1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_2_0_0_alpha1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Waiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Waiters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/YandexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YandexPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/390c687c-08c1-441a-a0cb-70ec7f92dca5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/43ee1767-3c1c-4efd-8e1d-515f842fe67f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6fe6a2bb-e23e-4538-9e2e-fdca68064a07-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/87bab49a-cfd5-45e5-98b4-9cd8a8dd6b1c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ae7269fb-b5c6-4b5d-8d01-ed651cab94f0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/be8005fc-766e-4c1f-9a1a-f6e9b3108f7f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__SDET_SDET__testProject.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.NumberLetters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.NumberLetters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Waiters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/helpers/Waiters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/YandexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/YandexPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/NumberLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/NumberLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
