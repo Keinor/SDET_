@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -28,14 +29,30 @@ public class NumberLetters {
         yandexPage.inputTypeLogin("AnstyTest"); //логин
         yandexPage.buttonLoginClick();
         yandexPage.buttonPasswordClick("Ssf!!77117711");//пароль
-        yandexPage.buttonLoginClick();
+        checkAuthorization();
 
         int numberThemes = yandexPage.getLettersCount("Simbirsoft theme");
 
-        yandexPage.spanMailClick();
+        checkLettersCount();
         yandexPage.inputThemetext("Simbirsoft theme \n");
         yandexPage.inputMail(yandexPage.getLettersCount("Simbirsoft theme"));
         yandexPage.buttonSendClick();
+        numberOfThemeToBe(numberThemes);
+
+    }
+
+    @Step("Проверка авторизации: логин AnstyTest  пароль Ssf!!77117711")
+    public static void checkAuthorization(){
+        yandexPage.buttonLoginClick();
+    }
+
+    @Step("Проверка, что нажата кнопка Написать")
+    public static void checkLettersCount(){
+        yandexPage.spanMailClick();
+    }
+
+    @Step("Проверка, что письмо с темой отправлено")
+    public static void numberOfThemeToBe(int numberThemes){
         yandexPage.waitNumberOfThemeToBe("'Simbirsoft theme'", numberThemes + 1);
     }
 
