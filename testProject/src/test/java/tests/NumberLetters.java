@@ -28,7 +28,7 @@ public class NumberLetters {
         yandexPage.buttonMailClick();
         yandexPage.inputTypeLogin("AnstyTest"); //логин
         yandexPage.buttonLoginClick();
-        yandexPage.buttonPasswordClick("Ssf!!77117711");//пароль
+        yandexPage.buttonPasswordClick("");//пароль
         checkAuthorization();
 
         int numberThemes = yandexPage.getLettersCount("Simbirsoft theme");
@@ -41,7 +41,7 @@ public class NumberLetters {
 
     }
 
-    @Step("Проверка авторизации: логин AnstyTest  пароль Ssf!!77117711")
+    @Step("Проверка авторизации: логин AnstyTest  пароль ")
     public static void checkAuthorization(){
         yandexPage.buttonLoginClick();
     }
