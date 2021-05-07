@@ -1,1 +1,1 @@
- *.iml, .idea, .gradle
+ *.iml, .idea, .gradle, /target
