@@ -1,7 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
-import static helpers.HelperGet.testGetPage;
+import static helpers.HelperGet.getDataUsers;
 import static io.restassured.RestAssured.given;
 import static io.restassured.path.json.JsonPath.from;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -12,19 +12,19 @@ public class TestAPI {
 
     @Test
     public void testGetUserOfPagination() {
-        String checkUser = null;
+        String checkEmail = null;
 
-        for (int i = 1; i <= testGetPage(); i++) {
+        for (int i = 1; i <= getDataUsers(); i++) {
             String response = given().
                     param("page", i).
                     get("https://reqres.in/api/users?{i}", i).asString();
 
-            checkUser = from(response).get("data.find{it.first_name=='Michael' && it.last_name=='Lawson' }.email");
-            if (checkUser != null) {
+            checkEmail = from(response).get("data.find{it.first_name=='Michael' && it.last_name=='Lawson' }.email");
+            if (checkEmail != null) {
                 break;
             }
         }
-        assertThat(checkUser, is("michael.lawson@reqres.in"));
+        assertThat(checkEmail, is("michael.lawson@reqres.in"));
     }
 
     @Test
