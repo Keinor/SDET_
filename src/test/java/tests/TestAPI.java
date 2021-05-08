@@ -1,5 +1,4 @@
 package tests;
-
 import org.testng.annotations.Test;
 import static helpers.HelperGet.getDataUsers;
 import static io.restassured.RestAssured.given;
